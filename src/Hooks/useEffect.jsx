@@ -13,8 +13,8 @@ function UseEffectHook() {
   return (
     <div>
       <div>useEffect function</div>
+      <p>The First 5 Emails in API</p>
       <div>
-        <p>The First 5 Emails in API</p>
         <ol>
           {jsonData &&
             jsonData.map(
