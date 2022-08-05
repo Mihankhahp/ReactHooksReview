@@ -1,5 +1,6 @@
 import React from "react"
 import './App.css';
+import UseEffectHook from "./Hooks/useEffect";
 import UseReducerHook from "./Hooks/useReducer";
 import UseStateHook from './Hooks/useState';
 
@@ -9,6 +10,8 @@ function App() {
       <UseStateHook />
       <br />
       <UseReducerHook />
+      <br />
+      <UseEffectHook />
     </div>
   );
 }
