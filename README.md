@@ -30,9 +30,9 @@ useContext
 Accepts a context object (the value returned from React.createContext) and returns the current context value for that context. The current context value is determined by the value prop of the nearest <MyContext.Provider> above the calling component in the tree.
  
 * useMemo
- * It is used to memorize in the computing process, whenever we have an algorithm that is repetitive 
- * It needs a function for computing and a dependency to re-compute, and it would avoid recomputing the same function with the same entered data.
+  * It is used to memorize in the computing process, whenever we have an algorithm that is repetitive 
+  * It needs a function for computing and a dependency to re-compute, and it would avoid recomputing the same function with the same entered data.
 
 * useCallback
- * Pass an inline callback and an array of dependencies.
- * Will return a memoized version of the callback that only changes if one of the dependencies has changed. This is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders 
+  * Pass an inline callback and an array of dependencies.
+  * Will return a memoized version of the callback that only changes if one of the dependencies has changed. This is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders 
